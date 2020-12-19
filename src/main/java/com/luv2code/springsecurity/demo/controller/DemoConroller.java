@@ -9,4 +9,9 @@ public class DemoConroller {
 	@GetMapping("/") String showHome() {
 		return "home" ;
 	}
+	@GetMapping("/showLoginPage")
+	public String showLoginPage() {
+		
+		return "login-form";
+	}
 }
