@@ -56,12 +56,12 @@
 											Invalid username and password.</div>
 
 									</c:if>
-
-									<!--		            
-									<div class="alert alert-success col-xs-offset-1 col-xs-10">
-										You have been logged out.
-									</div>
-								    -->
+									
+									<c:if test="${param.logout != null }">
+										<div class="alert alert-success col-xs-offset-1 col-xs-10">
+											You have been logged out.
+										</div>
+									</c:if>
 
 								</div>
 							</div>
