@@ -12,6 +12,7 @@ public class DemoConroller {
 	@GetMapping("/showLoginPage")
 	public String showLoginPage() {
 		
-		return "login-form";
+		//return "login-form";
+		return "fancy-login";
 	}
 }
