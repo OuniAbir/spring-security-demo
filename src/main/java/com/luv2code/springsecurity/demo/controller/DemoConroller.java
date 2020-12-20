@@ -15,4 +15,22 @@ public class DemoConroller {
 		//return "login-form";
 		return "fancy-login";
 	}
+	
+	@GetMapping("/leaders")
+	public String showLeaders() {
+		return "leaders" ;
+		
+	}
+	@GetMapping("/systems")
+	public String showSystems() {
+		return "systems" ;
+		
+	}
+	
+	@GetMapping("/access-denied")
+	public String showAccessDenied() {
+		return "accessDenied" ;
+		
+	}
+	
 }
